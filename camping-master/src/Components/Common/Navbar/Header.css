@@ -1,0 +1,55 @@
+.navBarContainer {
+    padding: 30px 0px;
+}
+
+.cartSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cartArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px
+}
+
+svg.headerIcon {
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    font-size: 16px !important;
+    color: #111 !important;
+    padding: 0px 40px 0px 0px !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 0px !important;
+}
+
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    margin: 0 auto !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.mainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+a.menuItem {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+a.menuItem:last-child {
+    margin-right: 0px;
+}
