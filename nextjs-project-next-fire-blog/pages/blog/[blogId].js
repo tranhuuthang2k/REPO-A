@@ -4,7 +4,7 @@ import { db, auth, serverTimestamp } from "../../firebase";
 import { useRouter } from "next/router";
 import Avatar from "react-avatar";
 import Image from "next/image";
-import { Markup } from 'interweave';
+import { Markup } from "interweave";
 
 const blogpage = ({ blog, allmsg }) => {
   const [msg, setMsg] = useState("");
@@ -32,7 +32,6 @@ const blogpage = ({ blog, allmsg }) => {
 
     // setAllMsg(comm.docs.map(docsnap=>docsnap.data()))
     const allcom = comm.docs.map((snap) => {
-
       return {
         ...snap.data(),
         date: snap.data().date.toMillis(),
@@ -67,14 +66,17 @@ const blogpage = ({ blog, allmsg }) => {
                 )}
                 <hr />
                 <Markup content={blog.desc} />
-                <span>Tags: {" "}
-                {blog?.tags.map((val, ind) => {
-                  return (
-                    <>
-                      <a href={`/tag/${val}`}>{val} {","}</a>
-                    </>
-                  );
-                })}
+                <span>
+                  Tags:{" "}
+                  {blog?.tags.map((val, ind) => {
+                    return (
+                      <>
+                        <a href={`/tag/${val}`}>
+                          {val} {","}
+                        </a>
+                      </>
+                    );
+                  })}
                 </span>
               </div>
             </div>
