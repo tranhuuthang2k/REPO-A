@@ -1,0 +1,30 @@
+{
+  "name": "nextjsblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ckeditor/ckeditor5-build-classic": "^35.0.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "antd": "^4.22.4",
+    "firebase": "^8.3.1",
+    "interweave": "^13.0.0",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-avatar": "^3.10.0",
+    "react-dom": "17.0.2",
+    "react-lazyload": "^3.2.0",
+    "react-loading": "^2.0.3",
+    "react-progress-2": "^4.4.3",
+    "react-router-dom": "^6.3.0",
+    "react-spinners-css": "^2.0.1",
+    "suneditor": "^2.43.14",
+    "suneditor-react": "^3.4.1",
+    "uuid": "^8.3.2"
+  }
+}
